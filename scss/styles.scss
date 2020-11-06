@@ -49,6 +49,9 @@ nav {
 }
 #footer {
     background-color: $color-black;
+    .copyright{
+        text-align: center;
+    }
     #iFrame {
         padding: 5px;
     }
@@ -78,6 +81,8 @@ nav {
                 width: 400px;
                 transition: transform 0.8s;
                 cursor: pointer;
+                max-width: 100%;
+                height: auto;
             }
             .imgTe:hover:hover {
                 transform: scale(1.05);

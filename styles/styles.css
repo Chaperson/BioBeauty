@@ -103,6 +103,8 @@ nav .sectionG {
   width: 400px;
   transition: transform 0.8s;
   cursor: pointer;
+  max-width: 100%;
+  height: auto;
 }
 
 /* line 82, ../ASD/scss/styles.scss */
@@ -264,6 +266,14 @@ nav .sectionG {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
   }
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #404145;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
